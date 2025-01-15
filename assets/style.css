@@ -9,31 +9,30 @@
 }
 
 .item {
-    width: 80px;
-    /* height: 80px; */
+    /*   */
     border: 1px solid red;
     background-color: teal;
     color: white;
     text-align: center;
     font-size: 2em;
+
+    flex-basis: 100px;
 }
 
 .one {
-    order: 2;
+
 }
 
 .two {
-    order: 1;
-    align-self: center;
+    /* white-space: nowrap; */
 }
 
 .three {
-    order: 1;
+
 }
 
 .four {
-    order: 2;
-    align-self:flex-end;
+
 }
 
 .five {
