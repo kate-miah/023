@@ -5,12 +5,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
+    align-items: flex-start;
 }
 
 .item {
     width: 80px;
-    height: 80px;
+    /* height: 80px; */
     border: 1px solid red;
     background-color: teal;
     color: white;
@@ -24,6 +24,7 @@
 
 .two {
     order: 1;
+    align-self: center;
 }
 
 .three {
@@ -32,6 +33,7 @@
 
 .four {
     order: 2;
+    align-self:flex-end;
 }
 
 .five {
