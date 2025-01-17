@@ -17,28 +17,28 @@
     font-size: 2em;
 
     flex-basis: 100px;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .one {
-
+    flex-grow: 1;
 }
 
 .two {
     /* white-space: nowrap; */
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
 .three {
-
+    flex-grow: 2;
 }
 
 .four {
-
+    flex-grow: 1;
 }
 
 .five {
-
+    flex-grow: 2;
 }
 
 /* 
